@@ -1,45 +1,57 @@
 {
-  "name": "thrift",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/icons-material": "^5.11.9",
-    "@mui/material": "^5.11.9",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
-  }
+	"name": "ansi-escapes",
+	"version": "4.3.2",
+	"description": "ANSI escape codes for manipulating the terminal",
+	"license": "MIT",
+	"repository": "sindresorhus/ansi-escapes",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"ansi",
+		"terminal",
+		"console",
+		"cli",
+		"string",
+		"tty",
+		"escape",
+		"escapes",
+		"formatting",
+		"shell",
+		"xterm",
+		"log",
+		"logging",
+		"command-line",
+		"text",
+		"vt100",
+		"sequence",
+		"control",
+		"code",
+		"codes",
+		"cursor",
+		"iterm",
+		"iterm2"
+	],
+	"dependencies": {
+		"type-fest": "^0.21.3"
+	},
+	"devDependencies": {
+		"@types/node": "^13.7.7",
+		"ava": "^2.1.0",
+		"tsd": "^0.14.0",
+		"xo": "^0.25.3"
+	}
 }
